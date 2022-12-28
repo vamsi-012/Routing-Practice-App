@@ -1,6 +1,6 @@
 /* Write your CSS code here */
 
-.container {
+.about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,11 +8,11 @@
   height: 70vh;
 }
 
-.about-image {
+.about-img {
   width: 150px;
 }
 
-.heading {
+.about-heading {
   font-family: 'Roboto';
   font-weight: 500;
   color: #6d396b;
@@ -20,12 +20,12 @@
 }
 
 @media (min-width: 576px) {
-  .heading {
+  .about-heading {
     font-size: 48px;
   }
 }
 
-.para {
+.about-paragraph {
   font-family: 'Roboto';
   font-size: 20px;
   text-align: center;

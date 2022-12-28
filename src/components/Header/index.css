@@ -1,26 +1,24 @@
 /* Write your CSS code here */
 
-.main-container {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 32px;
-  width: 100vw;
-  padding: 35px;
 }
 
 @media (max-width: 575px) {
-  .main-container {
+  .header-container {
     padding: 15px;
   }
 }
 
-.container {
+.logo-and-title-container {
   display: flex;
   align-items: center;
 }
 
-.logo-image {
+.logo {
   width: 24px;
   height: 24px;
   margin-right: 8px;
@@ -33,16 +31,16 @@
   font-weight: bold;
 }
 
-.components {
+.nav-items-list {
   display: flex;
   padding-left: 0px;
 }
 
-.link {
+.link-item {
   list-style-type: none;
 }
 
-.component-link {
+.route-link {
   color: #12022f;
   font-family: 'Roboto';
   font-size: 16px;

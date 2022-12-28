@@ -11,17 +11,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Write your CSS code here */
-
-.main-container {
+.app-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border: 5px solid black;
 }
 
-.container {
+.responsive-container {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -31,12 +28,12 @@ body {
 }
 
 @media (max-width: 576px) {
-  .container {
+  .responsive-container {
     width: 85%;
   }
 }
 
-.components {
+.app-body {
   display: flex;
   justify-content: center;
   align-items: center;

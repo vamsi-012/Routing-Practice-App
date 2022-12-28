@@ -1,6 +1,6 @@
 /* Write your CSS code here */
 
-.container {
+.contact-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,18 +8,18 @@
   height: 70vh;
 }
 
-.contact-image {
+.contact-img {
   width: 150px;
 }
 
-.heading {
+.contact-heading {
   font-family: 'Roboto';
   font-weight: 500;
   color: #6d396b;
 }
 
 @media (min-width: 576px) {
-  .heading {
+  .contact-heading {
     font-size: 48px;
   }
 }
